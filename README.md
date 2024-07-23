@@ -44,11 +44,11 @@ Running the Application
 
 1.	Start the Streamlit application: streamlit run app.py
 2.	Compose and submit a post:
->	Open the web application in your browser.
->	Write your post in the text area provided.
->	Click the "Post" button to submit your post.
-3.	View trending hashtags:
-o	Click the "Show Trending Hashtags" button to view the latest trending hashtags.
+	Open the web application in your browser.
+	Write your post in the text area provided.
+   Click the "Post" button to submit your post.
+4.	View trending hashtags:
+   Click the "Show Trending Hashtags" button to view the latest trending hashtags.
 
 Lambda Functions
 
