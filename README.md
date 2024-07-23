@@ -16,20 +16,20 @@ The project consists of a Streamlit-based web application that allows users to:
    
 Technologies Used
 
-•	Python: The primary programming language used for the backend and Streamlit application.
-•	Streamlit: A web framework for creating interactive web applications.
-•	AWS Lambda: A serverless compute service that runs code in response to events and automatically manages the underlying compute resources.
-•	DynamoDB: A fast and flexible NoSQL database service provided by AWS.
-•	boto3: The Amazon Web Services (AWS) SDK for Python, used to interact with AWS services.
-•	dotenv: A Python library used to manage environment variables.
+1.	Python: The primary programming language used for the backend and Streamlit application.
+2.	Streamlit: A web framework for creating interactive web applications.
+3.	AWS Lambda: A serverless compute service that runs code in response to events and automatically manages the underlying compute resources.
+4.	DynamoDB: A fast and flexible NoSQL database service provided by AWS.
+5.	boto3: The Amazon Web Services (AWS) SDK for Python, used to interact with AWS services.
+6.	dotenv: A Python library used to manage environment variables.
 
 Usage
 
 Prerequisites
 
-•	Python 
-•	AWS account with access to Lambda and DynamoDB services
-•	Environment variables set for AWS credentials
+1.	Python 
+2.	AWS account with access to Lambda and DynamoDB services
+3.	Environment variables set for AWS credentials
 
 Installation
 
@@ -44,9 +44,9 @@ Running the Application
 
 1.	Start the Streamlit application: streamlit run app.py
 2.	Compose and submit a post:
-o	Open the web application in your browser.
-o	Write your post in the text area provided.
-o	Click the "Post" button to submit your post.
+>	Open the web application in your browser.
+>	Write your post in the text area provided.
+>	Click the "Post" button to submit your post.
 3.	View trending hashtags:
 o	Click the "Show Trending Hashtags" button to view the latest trending hashtags.
 
@@ -57,8 +57,8 @@ Lambda Functions
    
 Updating AWS Lambda Functions
 
-•	Package your Lambda function code and deploy it to AWS Lambda.
-•	Ensure that the Lambda functions have the necessary permissions to access DynamoDB.
+1.	Package your Lambda function code and deploy it to AWS Lambda.
+2.	Ensure that the Lambda functions have the necessary permissions to access DynamoDB.
 
 Conclusion
 
